@@ -1,11 +1,93 @@
-body {
-    background-color: black;
+#body {
+   
+ 
+    background-image: url("assets/img/old_moon.png");
+    background-repeat: repeat-x, repeat-y;
 }
 #header {
-    width: 960px;
-    background-color: #ffffff;
+   background-color: #ffffff;
+   border-bottom: 2px solid #dedede;
 }
 
-#header.h1 {
-    background-color: #4aaaa4;
+#nav-bar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+    height: 90px;
+    display: block;
+    background-color: #ffffff;
 }
+#middle-link {
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+
+}
+
+#title {
+    width: 250px;
+    height: 90px;
+    background-color: #4aaaa5;
+    float: left;
+   
+}
+#title h1 {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    font-size: 30px;
+    color: #ffffff;
+  
+
+}
+.nav-links {
+  
+    list-style-type: none;
+    float: right;
+   
+}
+li {
+    float: right;
+    padding: 20px;
+    font-size: 15px;
+    
+}
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+#header .nav-links {
+    float: right;
+
+    margin-left: auto;
+}
+
+#main-block h1 {
+    padding: 25px;
+    font-size: 30px;
+    color: #4aaaa5;
+}
+
+#main-block {
+    padding: 25px;
+}
+#main {
+ 
+    margin-top: 45px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dedede;
+    width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+
+}
+
+img {
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+
