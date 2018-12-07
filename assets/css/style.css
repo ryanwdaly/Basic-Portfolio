@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+#header {
+    width: 960px;
+    background-color: #ffffff;
+}
+
+#header.h1 {
+    background-color: #4aaaa4;
+}
